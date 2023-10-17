@@ -30,6 +30,7 @@ app = Flask(__name__)
 # 환경변수 셋팅
 app.config.from_object(Config)
 
+
 # JWT 매니저 초기화
 jwt = JWTManager(app)
 api = Api(app)
